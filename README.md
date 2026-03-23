@@ -259,10 +259,12 @@ npm run test:coverage
 
 ## 📚 Documentation
 
-- [API Reference](docs/API.md)
-- [Watsonx Integration Guide](docs/WATSONX_INTEGRATION.md)
-- [Chart Type Guide](docs/CHART_TYPES.md)
-- [Examples](examples/)
+- [API Reference](docs/API.md) - Complete API documentation
+- [Watsonx Integration Guide](docs/WATSONX_INTEGRATION.md) - Setup and integration instructions
+- [Examples Guide](examples/run-examples.md) - How to use the examples and MCP server
+- [Usage Examples](examples/usage-examples.md) - Practical usage scenarios
+- [Contributing Guide](CONTRIBUTING.md) - How to contribute to the project
+- [Changelog](CHANGELOG.md) - Version history and updates
 
 ## 🤝 Contributing
 
