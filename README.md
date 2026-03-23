@@ -101,7 +101,9 @@ Quick configuration example for `~/.config/mcp/settings.json`:
 
 ### Watsonx Orchestrate Integration
 
-See [WATSONX_INTEGRATION.md](docs/WATSONX_INTEGRATION.md) for detailed setup instructions.
+**🚀 Quick Setup Guide**: [SETUP_WATSONX_ORCHESTRATE.md](SETUP_WATSONX_ORCHESTRATE.md) - Step-by-step guide to connect your local MCP server to Watsonx Orchestrate
+
+**📖 Complete Documentation**: [WATSONX_INTEGRATION.md](docs/WATSONX_INTEGRATION.md) - Detailed integration guide with advanced options
 
 ## 📖 Usage
 
