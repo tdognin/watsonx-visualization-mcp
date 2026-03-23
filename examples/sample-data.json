@@ -1,0 +1,87 @@
+{
+  "sales_by_region": [
+    {"region": "North America", "sales": 125000, "growth": 12.5},
+    {"region": "Europe", "sales": 98000, "growth": 8.3},
+    {"region": "Asia Pacific", "sales": 156000, "growth": 18.7},
+    {"region": "Latin America", "sales": 45000, "growth": 15.2},
+    {"region": "Middle East", "sales": 32000, "growth": 22.1}
+  ],
+
+  "monthly_revenue": [
+    {"month": "2024-01", "revenue": 45000, "expenses": 32000, "profit": 13000},
+    {"month": "2024-02", "revenue": 52000, "expenses": 35000, "profit": 17000},
+    {"month": "2024-03", "revenue": 48000, "expenses": 33000, "profit": 15000},
+    {"month": "2024-04", "revenue": 61000, "expenses": 38000, "profit": 23000},
+    {"month": "2024-05", "revenue": 58000, "expenses": 36000, "profit": 22000},
+    {"month": "2024-06", "revenue": 67000, "expenses": 40000, "profit": 27000}
+  ],
+
+  "product_distribution": {
+    "Product A": 2500,
+    "Product B": 1800,
+    "Product C": 3200,
+    "Product D": 1500,
+    "Product E": 2100
+  },
+
+  "customer_satisfaction": [
+    {"category": "Very Satisfied", "count": 450},
+    {"category": "Satisfied", "count": 320},
+    {"category": "Neutral", "count": 120},
+    {"category": "Dissatisfied", "count": 45},
+    {"category": "Very Dissatisfied", "count": 15}
+  ],
+
+  "correlation_data": [
+    {"advertising": 1000, "sales": 12000, "satisfaction": 85},
+    {"advertising": 1500, "sales": 15000, "satisfaction": 88},
+    {"advertising": 2000, "sales": 18000, "satisfaction": 90},
+    {"advertising": 1200, "sales": 13500, "satisfaction": 86},
+    {"advertising": 1800, "sales": 17000, "satisfaction": 89},
+    {"advertising": 2500, "sales": 21000, "satisfaction": 92}
+  ],
+
+  "project_timeline": [
+    {"task": "Requirements Gathering", "start": "2024-01-01", "end": "2024-01-15", "progress": 100},
+    {"task": "Design Phase", "start": "2024-01-16", "end": "2024-02-15", "progress": 100},
+    {"task": "Development", "start": "2024-02-16", "end": "2024-04-30", "progress": 75},
+    {"task": "Testing", "start": "2024-04-15", "end": "2024-05-31", "progress": 30},
+    {"task": "Deployment", "start": "2024-06-01", "end": "2024-06-15", "progress": 0}
+  ],
+
+  "network_connections": [
+    {"source": "Server A", "target": "Server B", "value": 150},
+    {"source": "Server A", "target": "Server C", "value": 200},
+    {"source": "Server B", "target": "Server D", "value": 100},
+    {"source": "Server C", "target": "Server D", "value": 180},
+    {"source": "Server D", "target": "Server E", "value": 220}
+  ],
+
+  "word_frequency": [
+    {"word": "innovation", "frequency": 45},
+    {"word": "technology", "frequency": 38},
+    {"word": "customer", "frequency": 52},
+    {"word": "growth", "frequency": 35},
+    {"word": "quality", "frequency": 42},
+    {"word": "service", "frequency": 48},
+    {"word": "digital", "frequency": 30},
+    {"word": "analytics", "frequency": 28}
+  ],
+
+  "statistical_sample": [
+    {"value": 23}, {"value": 25}, {"value": 27}, {"value": 24},
+    {"value": 26}, {"value": 28}, {"value": 95}, {"value": 25},
+    {"value": 24}, {"value": 26}, {"value": 27}, {"value": 23}
+  ],
+
+  "hierarchical_data": [
+    {"category": "Electronics", "subcategory": "Phones", "value": 5000},
+    {"category": "Electronics", "subcategory": "Laptops", "value": 8000},
+    {"category": "Electronics", "subcategory": "Tablets", "value": 3000},
+    {"category": "Clothing", "subcategory": "Men", "value": 4500},
+    {"category": "Clothing", "subcategory": "Women", "value": 6000},
+    {"category": "Clothing", "subcategory": "Kids", "value": 2500},
+    {"category": "Home", "subcategory": "Furniture", "value": 7000},
+    {"category": "Home", "subcategory": "Decor", "value": 3500}
+  ]
+}

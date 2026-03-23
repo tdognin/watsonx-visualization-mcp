@@ -1,0 +1,36 @@
+# Development files
+tests/
+examples/
+docs/
+*.test.js
+
+# Build scripts
+cleanup-project.sh
+
+# Documentation (keep only README)
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.github/
+
+# Logs
+*.log
+
+# Output
+output/
+
+# Environment
+.env*
+
+# OS
+.DS_Store
+Thumbs.db

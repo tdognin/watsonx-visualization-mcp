@@ -1,0 +1,68 @@
+{
+  "title": "Software Development Project Timeline",
+  "description": "Project phases and milestones for Q2 2024",
+  "data": [
+    {
+      "task": "Requirements Gathering",
+      "start": "2024-04-01",
+      "end": "2024-04-15",
+      "progress": 100,
+      "team": "Product"
+    },
+    {
+      "task": "System Design",
+      "start": "2024-04-10",
+      "end": "2024-04-30",
+      "progress": 100,
+      "team": "Architecture"
+    },
+    {
+      "task": "Frontend Development",
+      "start": "2024-05-01",
+      "end": "2024-06-15",
+      "progress": 65,
+      "team": "Frontend"
+    },
+    {
+      "task": "Backend Development",
+      "start": "2024-05-01",
+      "end": "2024-06-20",
+      "progress": 70,
+      "team": "Backend"
+    },
+    {
+      "task": "Database Setup",
+      "start": "2024-04-25",
+      "end": "2024-05-10",
+      "progress": 100,
+      "team": "DevOps"
+    },
+    {
+      "task": "Integration Testing",
+      "start": "2024-06-10",
+      "end": "2024-06-30",
+      "progress": 30,
+      "team": "QA"
+    },
+    {
+      "task": "User Acceptance Testing",
+      "start": "2024-06-25",
+      "end": "2024-07-10",
+      "progress": 0,
+      "team": "QA"
+    },
+    {
+      "task": "Deployment",
+      "start": "2024-07-08",
+      "end": "2024-07-15",
+      "progress": 0,
+      "team": "DevOps"
+    }
+  ],
+  "suggestedChartTypes": ["gantt chart"],
+  "insights": [
+    "Project is 60% complete overall",
+    "Frontend and Backend development on track",
+    "Testing phase starting soon"
+  ]
+}

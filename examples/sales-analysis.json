@@ -1,0 +1,75 @@
+{
+  "title": "Q1 2024 Sales Analysis",
+  "description": "Quarterly sales performance across regions",
+  "data": [
+    {
+      "month": "January",
+      "region": "North America",
+      "sales": 125000,
+      "profit": 32500,
+      "units": 450
+    },
+    {
+      "month": "January",
+      "region": "Europe",
+      "sales": 98000,
+      "profit": 24500,
+      "units": 380
+    },
+    {
+      "month": "January",
+      "region": "Asia Pacific",
+      "sales": 142000,
+      "profit": 39000,
+      "units": 520
+    },
+    {
+      "month": "February",
+      "region": "North America",
+      "sales": 138000,
+      "profit": 36800,
+      "units": 490
+    },
+    {
+      "month": "February",
+      "region": "Europe",
+      "sales": 105000,
+      "profit": 27300,
+      "units": 410
+    },
+    {
+      "month": "February",
+      "region": "Asia Pacific",
+      "sales": 156000,
+      "profit": 43700,
+      "units": 580
+    },
+    {
+      "month": "March",
+      "region": "North America",
+      "sales": 152000,
+      "profit": 41800,
+      "units": 530
+    },
+    {
+      "month": "March",
+      "region": "Europe",
+      "sales": 118000,
+      "profit": 31400,
+      "units": 460
+    },
+    {
+      "month": "March",
+      "region": "Asia Pacific",
+      "sales": 171000,
+      "profit": 49200,
+      "units": 640
+    }
+  ],
+  "suggestedChartTypes": ["stacked column", "line", "heatmap"],
+  "insights": [
+    "Asia Pacific shows strongest growth trend",
+    "All regions show positive month-over-month growth",
+    "Profit margins remain consistent across regions"
+  ]
+}

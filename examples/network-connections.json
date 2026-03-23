@@ -1,0 +1,91 @@
+{
+  "title": "System Architecture Network",
+  "description": "Microservices communication patterns",
+  "data": [
+    {
+      "source": "API Gateway",
+      "target": "Auth Service",
+      "value": 1500,
+      "type": "REST"
+    },
+    {
+      "source": "API Gateway",
+      "target": "User Service",
+      "value": 2300,
+      "type": "REST"
+    },
+    {
+      "source": "API Gateway",
+      "target": "Order Service",
+      "value": 1800,
+      "type": "REST"
+    },
+    {
+      "source": "User Service",
+      "target": "Database",
+      "value": 3200,
+      "type": "SQL"
+    },
+    {
+      "source": "Order Service",
+      "target": "Database",
+      "value": 2800,
+      "type": "SQL"
+    },
+    {
+      "source": "Order Service",
+      "target": "Payment Service",
+      "value": 1200,
+      "type": "REST"
+    },
+    {
+      "source": "Order Service",
+      "target": "Inventory Service",
+      "value": 1500,
+      "type": "REST"
+    },
+    {
+      "source": "Payment Service",
+      "target": "External Gateway",
+      "value": 1100,
+      "type": "HTTPS"
+    },
+    {
+      "source": "Inventory Service",
+      "target": "Database",
+      "value": 1800,
+      "type": "SQL"
+    },
+    {
+      "source": "Auth Service",
+      "target": "Cache",
+      "value": 2500,
+      "type": "Redis"
+    },
+    {
+      "source": "User Service",
+      "target": "Cache",
+      "value": 1900,
+      "type": "Redis"
+    },
+    {
+      "source": "Order Service",
+      "target": "Message Queue",
+      "value": 800,
+      "type": "AMQP"
+    },
+    {
+      "source": "Message Queue",
+      "target": "Notification Service",
+      "value": 750,
+      "type": "AMQP"
+    }
+  ],
+  "suggestedChartTypes": ["network"],
+  "insights": [
+    "API Gateway is the central hub with highest traffic",
+    "Database receives most connections from User Service",
+    "Cache layer effectively reduces database load",
+    "Message Queue enables async communication"
+  ]
+}
