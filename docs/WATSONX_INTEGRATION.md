@@ -61,27 +61,18 @@ Add to your MCP configuration file (typically `~/.config/mcp/settings.json` or v
 
 **Important:** Replace `/absolute/path/to/` with the actual path to your installation.
 
-### Method 2: NPM Global Installation
+### Method 2: NPM Global Installation (Coming Soon)
 
-Install the package globally for easier access:
+**Note**: The package is not yet published on npm. Use Method 1 (Local STDIO) for now.
+
+Once published, you'll be able to install globally:
 
 ```bash
+# This will work after npm publication
 npm install -g @tdognin/watsonx-visualization-mcp
 ```
 
-Then configure:
-
-```json
-{
-  "mcpServers": {
-    "watsonx-visualization": {
-      "command": "watsonx-viz-mcp",
-      "args": [],
-      "env": {}
-    }
-  }
-}
-```
+For now, use the local installation method (Method 1) above.
 
 ### Method 3: Remote Server Deployment
 

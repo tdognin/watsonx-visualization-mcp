@@ -55,8 +55,11 @@ Automatically determines the best visualization type based on:
 
 ### Installation
 
-1. Clone or navigate to the project directory:
+**Note**: The package is not yet published on npm. Use local installation:
+
+1. Clone the repository:
 ```bash
+git clone https://github.com/tdognin/watsonx-visualization-mcp.git
 cd watsonx-visualization-mcp
 ```
 
@@ -65,15 +68,17 @@ cd watsonx-visualization-mcp
 npm install
 ```
 
-3. Start the MCP server:
+3. Run tests to verify installation:
+```bash
+npm test
+```
+
+4. Start the MCP server:
 ```bash
 npm start
 ```
 
-For development with auto-reload:
-```bash
-npm run dev
-```
+**📖 Detailed installation guide**: [INSTALLATION_LOCALE.md](INSTALLATION_LOCALE.md)
 
 ## 🔧 Configuration
 
