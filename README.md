@@ -79,19 +79,25 @@ npm run dev
 
 ### MCP Server Configuration
 
-Add to your MCP settings file (e.g., `~/.config/mcp/settings.json`):
+The MCP server needs to be configured in your **system configuration file** (not in this project).
+
+**📖 For detailed step-by-step instructions, see [GUIDE_CONFIGURATION_MCP.md](GUIDE_CONFIGURATION_MCP.md)**
+
+Quick configuration example for `~/.config/mcp/settings.json`:
 
 ```json
 {
   "mcpServers": {
     "watsonx-visualization": {
       "command": "node",
-      "args": ["/path/to/watsonx-visualization-mcp/src/mcp-server/index.js"],
+      "args": ["/FULL/PATH/TO/watsonx-visualization-mcp/src/mcp-server/index.js"],
       "env": {}
     }
   }
 }
 ```
+
+**⚠️ Important**: Replace `/FULL/PATH/TO/` with the actual path to your project directory.
 
 ### Watsonx Orchestrate Integration
 
